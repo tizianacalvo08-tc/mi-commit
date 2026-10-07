@@ -1,0 +1,97 @@
+
+
+:root {
+    --body-bg-color: #fcfaf6 (43, 43, 70);
+    --text-color: #330228;
+    --colorh1: #f7bfed9(215, 211, 211);
+}
+
+.navigation{
+    display: flex;
+    gap: 2rem; 
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 0.1rem;
+    list-style: none;
+    justify-content: flex end;
+    margin:0 2rem;
+    padding: 0.5rem;  
+   
+}
+body {
+    
+    font-family: "Times New Roman", serif, Tahoma;
+    background-color: #fafcf6;
+    flex-direction: column;
+}
+.navigation li {
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1.6rem;
+    display: inline-block;
+    border-radius: 0.8rem;
+    transition: transform 0.2s ease;
+    flex-direction: column;
+}
+
+.navigation li:nth-child(1) a {
+    background-color: #f7bfed;
+    color: #721f5f;
+}
+
+.navigation li:nth-child(2) a {
+    background-color: #b1fcaf;
+    color: #0e000a;
+}
+
+.navigation li:nth-child(3) a {
+   background-color: #2c2e94;
+    color: #cae1eb;
+}
+
+a{
+    text-decoration: none;
+    color: #faf4f7;
+    padding: 0.5rem 1.2rem;
+    display: inline-block;
+}
+.texto {
+    color: #330228;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.sobremi {
+    display: flex;
+    justify-content: center;
+}
+
+/* Celular (Pantallas pequeñas, hasta 767px) */
+@media (max-width: 767px) {
+    .titulo {
+        justify-content: center;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+}
+
+/* Escritorio (Pantallas anchas, 1024px y superiores) */
+@media (min-width: 1024px) {
+    .titulo {
+        justify-content: flex-start;
+    }
+
+    .navigation {
+        gap: 3rem;
+        justify-content: flex-end;
+        margin: 0 3rem;
+    }
+}

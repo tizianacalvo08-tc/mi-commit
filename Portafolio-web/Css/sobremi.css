@@ -1,0 +1,46 @@
+ .container-sobre-mi {
+        width: 150%;
+        padding: 2rem; 
+        margin-top: 1rem; /* margen a lo alto */
+        line-height: 2.5rem; /* espaciado entre los parrafos del texto */
+        font-size: small; /* tamaño de la fuente */
+    }
+.main-container-sobremi {
+    text-align: center;
+    display: flex;
+    width: 95%; /*ancho*/
+    padding: 2rem;
+    margin-top: 1rem;
+    line-height: 2.0rem;
+    font-size: large;
+    color: #29011c;
+    font-style: italic;
+    flex-direction: column;
+}
+
+/* Celular (Pantallas pequeñas, hasta 767px) */
+@media (max-width: 767px) {
+    .titulo {
+        justify-content: center;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+}
+
+/* Escritorio (Pantallas anchas, 1024px y superiores) */
+@media (min-width: 1024px) {
+    .titulo {
+        justify-content: flex-start;
+    }
+
+    .navigation {
+        gap: 3rem;
+        justify-content: flex-end;
+        margin: 0 3rem;
+    }
+}

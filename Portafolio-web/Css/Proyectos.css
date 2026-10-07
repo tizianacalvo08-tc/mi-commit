@@ -1,0 +1,30 @@
+/* Aplicar fuente global y espaciado cómodo */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #3b4d5f;
+  background-color: #c2dbf5;
+}
+.proyectos-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  width: 80%;
+  margin: 0 auto
+} 
+#proyectos li, 
+#estudios li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  
+  /* Espacio entre renglones (si el texto se dobla en dos líneas) */
+  line-height: 1.8; 
+  
+  /* Espacio sutil entre letras (se ve más estético y aireado) */
+  letter-spacing: 0.5px; 
+  
+  /* Espacio vertical entre cada punto de la lista */
+  margin-bottom: 1.2rem; 
+}
