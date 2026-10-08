@@ -2,7 +2,7 @@
 .sobremi {
   display: flex;
   flex-direction: row;
-  align-items: center;      /* Centra la foto y el texto a la misma altura vertical */
+  align-items: center;      
   justify-content: center;  /* Centra el bloque en la pantalla */
   gap: 2.5rem;              /* Espacio entre la foto y el texto */
   max-width: 900px;
@@ -21,11 +21,13 @@
 
 /* Estilos para el texto */
 .container-sobre-mi {
+   font-family: 'Cormorant Garamond', serif;
   max-width: 500px;
   color: #29011c;
   font-size: 1.15rem;
-  line-height: 1.6;
+  line-height: 1.1;
   text-align: left;
+  font-style: italic;
 }
 
 .container-sobre-mi p {
