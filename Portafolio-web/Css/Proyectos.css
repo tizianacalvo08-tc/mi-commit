@@ -1,30 +1,28 @@
-/* Aplicar fuente global y espaciado cómodo */
-body {
-  font-family: 'Poppins', sans-serif;
-  color: #3b4d5f;
-  background-color: #c2dbf5;
+.proyectos {
+  width: 100%;
+  padding: 1rem;
+  background: var(--fondo-proyecto);
 }
-.proyectos-contenedor {
+
+.galeria-proyectos {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem 1rem;
-  width: 80%;
-  margin: 0 auto
-} 
-#proyectos li, 
-#estudios li {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  
-  /* Espacio entre renglones (si el texto se dobla en dos líneas) */
-  line-height: 1.8; 
-  
-  /* Espacio sutil entre letras (se ve más estético y aireado) */
-  letter-spacing: 0.5px; 
-  
-  /* Espacio vertical entre cada punto de la lista */
-  margin-bottom: 1.2rem; 
+  flex-wrap: wrap;
+  justify-content: inter;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+.proyecto img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover; 
+  border-radius: 4px;
+}
+.proyecto {
+  background-color: rgb(59, 3, 45);
+  border: 0.5px solid #020002;
+  border-radius: 5px;
+  padding: 15px;
+  width: calc(33% - 40px);
+  box-shadow: 0 2px 5px rgb(231, 174, 174);
+  color:white;
 }
