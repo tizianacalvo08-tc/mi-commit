@@ -18,12 +18,12 @@
   border-radius: 4px;
 }
 .proyecto {
-  background-color: rgb(158, 41, 129);
-  border: 0.5px solid #310535;
+  background-color: rgb(67, 28, 77);
+  border: 0.5px solid #a1c3ce;
   border-radius: 5px;
   padding: 15px;
   width: calc(33% - 40px);
-  box-shadow: 0 2px 5px rgb(231, 174, 174);
+  box-shadow: 0 2px 5px rgb(243, 227, 227);
   color:white;
   
 }
