@@ -1,7 +1,7 @@
 :root {
-  --body-bg-color: #fafcf6;
-  --text-color: #330228;
-  --color-h1: #721f5f;
+  --body-bg-color: #1b0110;
+  --text-color: #e6bbdc;
+  --color-h1: #f8d9f0;
 }
 
 * {
@@ -34,7 +34,7 @@ header h1, .titulo {
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
   border-bottom: 2px solid #330228;
-}
+ }
 
 /* Contenedores principales centrado */
 main, section, .container {
@@ -72,24 +72,6 @@ main, section, .container {
 .navigation li:nth-child(2) a { background-color: #b1fcaf; color: #0e000a; }
 .navigation li:nth-child(3) a { background-color: #2c2e94; color: #cae1eb; }
 
-/* Sección Sobre Mí */
-.sobremi {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-  flex-direction: row;
-  max-width: 900px;
-  margin: 1rem auto 2rem;
-}
-
-.texto {
-  color: var(--text-color);
-  font-size: 1.1rem;
-  line-height: 1.6;
-  max-width: 600px;
-}
 
 /* Adaptación para celulares */
 @media (max-width: 767px) {
