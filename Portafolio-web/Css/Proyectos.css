@@ -27,3 +27,33 @@
   color:white;
   
 }
+.proyecto h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.proyecto p {
+  margin: 10px 0;
+}
+.proyecto a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 9px 12px;
+  background-color: #4b306d;
+  color: #fff;
+  border-radius: 2px;
+}
+.proyecto a:hover {
+  background-color: #798d9e;
+} 
+/* Celular*/
+@media (max-width: 767px){
+    .proyecto{
+        width: calc(100% - 40px);
+    }
+}
+/* Tablet*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .proyecto{
+        width: calc(50% - 40px);
+    }
+}
