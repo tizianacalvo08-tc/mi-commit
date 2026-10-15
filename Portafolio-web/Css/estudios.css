@@ -1,9 +1,13 @@
 #estudios li {
-    margin-bottom: 1.5rem;
-    color: #ffe9c8;
+    margin-bottom: 3.5rem;
+    color: #fffffb;
 
 }
 #estudios li {
     margin-bottom: 10px;
     line-height: 1.5;
+}
+#estudios h2 {
+    margin-bottom: 2.0rem; /* Ajusta este valor para más o menos espacio */
+    color: #d7fcd0;
 }

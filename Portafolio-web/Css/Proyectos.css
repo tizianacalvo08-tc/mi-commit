@@ -23,7 +23,7 @@
   border-radius: 5px;
   padding: 15px;
   width: calc(33% - 40px);
-  box-shadow: 0 2px 5px rgb(243, 227, 227);
+  box-shadow: 0 2px 5px rgb(231, 255, 223);
   color:white;
   
 }
@@ -33,6 +33,7 @@
 }
 .proyecto p {
   margin: 10px 0;
+  color: #c9eeb7;
 }
 .proyecto a {
   display: inline-block;
