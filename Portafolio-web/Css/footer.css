@@ -1,0 +1,62 @@
+footer {
+    background-color: #2e2d3f; /* Fondo del footer en color gris oscuro */
+    color: #fff; /* Texto en color blanco */
+    padding: 20px 0; /* Espaciado interno arriba y abajo */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Contenedor principal del footer */
+.footer-container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    display: flex; /* Usar flexbox para el layout */
+    flex-direction: column; /* Colocar los elementos en una columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    text-align: center; /* Centrar el texto dentro del contenedor */
+}
+
+/* Estilos para la sección de información del footer */
+.footer-info {
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos para la sección de enlaces a redes sociales */
+.footer-social {
+    display: flex; 
+    justify-content: center;
+    gap: 15px;
+}
+.footer-social a {
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    background-color: #c4a9a9; 
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+/* Estilos para los botones de redes sociales al pasar el cursor */
+.footer-social a:hover {
+    background-color: #bb9e9e; 
+}
+
+/* Estilos para los iconos SVG dentro de los enlaces */
+.footer-social svg {
+    width: 24px ;
+    height: 24px ;
+    max-width: 24px ;
+    max-height: 24px ;
+    fill: #b36262; /* Color del icono en blanco */
+}
+
+/* Estilos responsivos para pantallas de tamaño tablet y menores */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Mantener los elementos en una columna */
+        align-items: center; /* Centrar los elementos horizontalmente */
+    }
+}
